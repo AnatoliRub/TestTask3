@@ -49,7 +49,7 @@ namespace CalculatorWithPriority
                     ComputeSubStack(NumbersStack, OperationsStack);
                 }
             }
-            Console.WriteLine(NumbersStack.First());
+            Console.WriteLine($"Result: {NumbersStack.First()}");
         }
         private void ComputeSubStack(Stack<double> stackN, Stack<string> stackO)
         {
