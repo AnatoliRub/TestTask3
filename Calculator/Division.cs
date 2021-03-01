@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CalculatorWithPriority
 {
-    class Division
+    public class Division
     {
         public Division() { }
         public double Calc(double fArg, double sArg)

@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsAndLINQ", "TestTask3\CollectionsAndLINQ.csproj", "{174A828E-3728-44B3-8393-1FFFFB3F3ABF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithPriority", "Calculator\CalculatorWithPriority.csproj", "{1C345158-FCB4-4095-999C-5C1B909E0C72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculatorWithPriority", "Calculator\CalculatorWithPriority.csproj", "{1C345158-FCB4-4095-999C-5C1B909E0C72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWithPriority.Test", "CalculatorWithPriority.Test\CalculatorWithPriority.Test.csproj", "{294E6221-6908-46C5-9304-920DAF2F4A2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1C345158-FCB4-4095-999C-5C1B909E0C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C345158-FCB4-4095-999C-5C1B909E0C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C345158-FCB4-4095-999C-5C1B909E0C72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294E6221-6908-46C5-9304-920DAF2F4A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294E6221-6908-46C5-9304-920DAF2F4A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294E6221-6908-46C5-9304-920DAF2F4A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294E6221-6908-46C5-9304-920DAF2F4A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

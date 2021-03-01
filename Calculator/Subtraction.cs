@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CalculatorWithPriority
 {
-    class Subtraction : ICalc
+    public class Subtraction : ICalc
     {
         public Subtraction() { }
         public double Calc(double fArg, double sArg)

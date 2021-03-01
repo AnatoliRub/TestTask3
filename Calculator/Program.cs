@@ -6,8 +6,8 @@ namespace CalculatorWithPriority
     {
         static void Main()
         {
-            Calculator calc = new Calculator(new Validator(new FileReader()));
-            calc.Calculate();
+            new Calculator(new Validator(new FileReader())).Calculate();
+            
         }
     }
 }
